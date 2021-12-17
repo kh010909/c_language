@@ -4,7 +4,7 @@ int main() {
 	int base, exp;
 	printf("enter a base and exp:");
 	scanf_s("%d %d", &base, &exp);
-	if (base != -1 || exp != -1) {
+	while (base != -1 || exp != -1) {
 		printf("The expotential is:%.2f\n", pow(base, exp));
 		printf("enter a base and exp:");
 		scanf_s("%d %d", &base, &exp);
