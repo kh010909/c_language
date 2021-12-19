@@ -2,16 +2,16 @@
 int prime(int);//宣告
 int main(){
 	int num;//輸入的數
-	printf("Please enter a number,enter negative number to exit:");
+	printf("Please enter a number,enter -1 to exit:");
 	scanf_s("%d", &num);
-	while(num >= 0){
+	while(num != -1){
 		if (prime(num) == 0) {
 		printf("This number is a prime number\n");
 		}
 		else if (prime(num) == 1) {
 		printf("This number is not a prime number\n");
 		}
-		printf("Please enter a number,enter negative number to exit:");
+		printf("Please enter a number,enter -1 to exit:");
 		scanf_s("%d", &num);
 	}
 	return 0;
