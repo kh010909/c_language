@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5a3c8c79-af6d-4202-aa2d-4e3d1ee70ca9": {
+      "ProjectGuid": "5a3c8c79-af6d-4202-aa2d-4e3d1ee70ca9",
+      "DisplayName": "lab5_Q3",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
